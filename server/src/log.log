@@ -1,0 +1,13 @@
+[INFO] 22:59:50:524 Servidor/(4742:4742): Servidor listo para recibir al cliente
+[INFO] 23:12:01:084 Servidor/(4742:4742): Se conecto un cliente!
+[INFO] 23:12:01:085 Servidor/(4742:4742): Me llego el mensaje valor clave
+[ERROR] 23:12:01:086 Servidor/(4742:4742): el cliente se desconecto. Terminando servidor
+[INFO] 23:21:58:128 Servidor/(5199:5199): Servidor listo para recibir al cliente
+[INFO] 23:28:50:180 Servidor/(5199:5199): Se conecto un cliente!
+[INFO] 23:28:50:181 Servidor/(5199:5199): Me llego el mensaje valor
+[ERROR] 23:28:50:181 Servidor/(5199:5199): el cliente se desconecto. Terminando servidor
+[INFO] 23:33:07:556 Servidor/(5485:5485): Servidor listo para recibir al cliente
+[INFO] 23:33:22:542 Servidor/(5485:5485): Se conecto un cliente!
+[INFO] 23:33:22:542 Servidor/(5485:5485): Me llego el mensaje valor
+[INFO] 23:33:22:542 Servidor/(5485:5485): Me llego el mensaje 127.0.0.1
+[ERROR] 23:33:22:542 Servidor/(5485:5485): el cliente se desconecto. Terminando servidor

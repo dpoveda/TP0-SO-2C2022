@@ -12,7 +12,7 @@ int iniciar_servidor(void)
 	struct addrinfo hints, *servinfo, *p;
 
 	memset(&hints, 0, sizeof(hints));
-	hints.ai_family = AF_UNSPEC; //ipv4 ipv6
+	hints.ai_family = AF_UNSPEC;
 	hints.ai_socktype = SOCK_STREAM;
 	hints.ai_flags = AI_PASSIVE;
 
@@ -26,7 +26,6 @@ int iniciar_servidor(void)
 		            continue;
 
 		        if (bind(socket_servidor, p->ai_addr, p->ai_addrlen) == -1) {
-		        	printf("-1");
 		        	close(socket_servidor);
 		            continue;
 		        }
@@ -36,7 +35,7 @@ int iniciar_servidor(void)
 
 	// Escuchamos las conexiones entrantes
 	listen(socket_servidor, SOMAXCONN);
-	printf("esta escuchando");
+
 	freeaddrinfo(servinfo);
 	log_trace(logger, "Listo para escuchar a mi cliente");
 
