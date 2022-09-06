@@ -11,3 +11,20 @@
 [INFO] 23:33:22:542 Servidor/(5485:5485): Me llego el mensaje valor
 [INFO] 23:33:22:542 Servidor/(5485:5485): Me llego el mensaje 127.0.0.1
 [ERROR] 23:33:22:542 Servidor/(5485:5485): el cliente se desconecto. Terminando servidor
+[INFO] 23:57:57:023 Servidor/(3172:3172): Servidor listo para recibir al cliente
+[INFO] 00:02:35:953 Servidor/(3172:3172): Se conecto un cliente!
+[INFO] 00:02:35:956 Servidor/(3172:3172): Me llego el mensaje valor
+[INFO] 00:03:18:236 Servidor/(3172:3172): Me llegaron los siguientes valores:
+
+[INFO] 00:03:18:236 Servidor/(3172:3172): hola
+[INFO] 00:03:18:236 Servidor/(3172:3172): como
+[INFO] 00:03:18:236 Servidor/(3172:3172): estas
+[ERROR] 00:03:18:237 Servidor/(3172:3172): el cliente se desconecto. Terminando servidor
+[INFO] 00:12:46:215 Servidor/(3464:3464): Servidor listo para recibir al cliente
+[INFO] 00:17:10:341 Servidor/(3464:3464): Se conecto un cliente!
+[INFO] 00:17:10:343 Servidor/(3464:3464): Me llego el mensaje valor
+[INFO] 00:17:32:835 Servidor/(3464:3464): Me llegaron los siguientes valores:
+
+[INFO] 00:17:32:835 Servidor/(3464:3464): esta todo ok
+[INFO] 00:17:32:835 Servidor/(3464:3464): ok creo que si
+[ERROR] 00:17:32:835 Servidor/(3464:3464): el cliente se desconecto. Terminando servidor

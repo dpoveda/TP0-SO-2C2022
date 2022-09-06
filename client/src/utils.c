@@ -4,7 +4,7 @@
 void* serializar_paquete(t_paquete* paquete, int bytes)
 {
 	void * magic = malloc(bytes);
-	int desplazamiento = 0;
+	int desplazamiento = 0; //esto es el offset que esta en la guia de serializacion
 
 	memcpy(magic + desplazamiento, &(paquete->codigo_operacion), sizeof(int));
 	desplazamiento+= sizeof(int);
@@ -44,14 +44,18 @@ int crear_conexion(char *ip, char* puerto)
 
 void enviar_mensaje(char* mensaje, int socket_cliente)
 {
+
+	//esto es lo de crear_paquete()
 	t_paquete* paquete = malloc(sizeof(t_paquete));
 
 	paquete->codigo_operacion = MENSAJE;
 	paquete->buffer = malloc(sizeof(t_buffer));
+
 	paquete->buffer->size = strlen(mensaje) + 1;
 	paquete->buffer->stream = malloc(paquete->buffer->size);
 	memcpy(paquete->buffer->stream, mensaje, paquete->buffer->size);
 
+	//todo esto es lo mismo que enviar_paquete()
 	int bytes = paquete->buffer->size + 2*sizeof(int);
 
 	void* a_enviar = serializar_paquete(paquete, bytes);
@@ -60,6 +64,7 @@ void enviar_mensaje(char* mensaje, int socket_cliente)
 
 	free(a_enviar);
 	eliminar_paquete(paquete);
+
 }
 
 
