@@ -107,7 +107,8 @@ void paquete(int conexion)
 	t_paquete* paquete;
 
 	//creo el paquete
-	paquete = crear_paquete();
+	//paquete = crear_paquete();
+	paquete = crear_super_paquete();
 
 	// Leemos y esta vez agregamos las lineas al paquete
 

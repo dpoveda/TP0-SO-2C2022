@@ -28,3 +28,31 @@
 [INFO] 00:17:32:835 Servidor/(3464:3464): esta todo ok
 [INFO] 00:17:32:835 Servidor/(3464:3464): ok creo que si
 [ERROR] 00:17:32:835 Servidor/(3464:3464): el cliente se desconecto. Terminando servidor
+[INFO] 23:03:41:144 Servidor/(1869:1869): Servidor listo para recibir al cliente
+[INFO] 23:05:08:223 Servidor/(1869:1869): Se conecto un cliente!
+[INFO] 23:05:08:224 Servidor/(1869:1869): Me llego el mensaje valor
+[INFO] 23:05:36:703 Servidor/(1869:1869): Me llegaron los siguientes valores:
+
+[INFO] 23:05:36:703 Servidor/(1869:1869): se tiene
+[INFO] 23:05:36:703 Servidor/(1869:1869): que
+[INFO] 23:05:36:703 Servidor/(1869:1869): enviar
+[INFO] 23:05:36:703 Servidor/(1869:1869): este mensaje
+[ERROR] 23:05:36:703 Servidor/(1869:1869): el cliente se desconecto. Terminando servidor
+[INFO] 23:37:23:042 Servidor/(2268:2268): Servidor listo para recibir al cliente
+[INFO] 23:37:54:493 Servidor/(2268:2268): Se conecto un cliente!
+[INFO] 23:38:20:597 Servidor/(2268:2268): Me llego el mensaje valor
+[ERROR] 23:39:34:503 Servidor/(2268:2268): el cliente se desconecto. Terminando servidor
+[INFO] 23:41:17:057 Servidor/(2417:2417): Servidor listo para recibir al cliente
+[INFO] 23:42:30:937 Servidor/(2417:2417): Se conecto un cliente!
+[INFO] 23:42:47:570 Servidor/(2417:2417): Me llego el mensaje valor
+[ERROR] 23:44:18:201 Servidor/(2417:2417): el cliente se desconecto. Terminando servidor
+[INFO] 23:47:20:378 Servidor/(2604:2604): Servidor listo para recibir al cliente
+[INFO] 23:48:06:491 Servidor/(2604:2604): Se conecto un cliente!
+[INFO] 23:48:12:396 Servidor/(2604:2604): Me llego el mensaje valor
+[INFO] 23:49:47:243 Servidor/(2604:2604): Me llegaron los siguientes valores:
+
+[INFO] 23:49:47:243 Servidor/(2604:2604): hola
+[INFO] 23:49:47:243 Servidor/(2604:2604): estoy
+[INFO] 23:49:47:243 Servidor/(2604:2604): enviando
+[INFO] 23:49:47:243 Servidor/(2604:2604): algo
+[ERROR] 23:50:12:720 Servidor/(2604:2604): el cliente se desconecto. Terminando servidor
